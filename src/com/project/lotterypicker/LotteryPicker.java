@@ -41,7 +41,7 @@ public class LotteryPicker {
 				break;
 			case 2:
 				System.out.println("----------------Number of drawings since number drawn----------------");
-				analyzer.printNumOfDrawingsSinceSelected();
+				analyzer.printNumOfDrawingsSinceSelected(null);
 				break;
 			case 3:
 				System.out.println("----------------Average Number of drawings between number drawn----------------");
